@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-content {
+    @apply flex-wrap overflow-hidden
+}
+
+.header-1 {
+  @apply relative
+}
+
+.header {
+    @apply flex justify-evenly p-2 w-full bg-opacity-100 fixed z-50 text-[#505050] bg-white pt-7 pb-4
+}
+
+.logo {
+  @apply  -mt-2 w-44 inline-block absolute left-28 lg:left-20 xl:left-20 2xl:left-20 z-10
+}
+.menu-list {
+   @apply flex-col place-content-center md:ml-44 mt-20 lg:mt-0 hidden lg:block 
+}
+
+.menu-drop {
+    @apply block lg:flex lg:space-x-16 xl:space-x-16 2xl:space-x-16 space-x-0 place-items-center space-y-24 md:space-y-32 xl:flex xl:space-y-0 2xl:flex 2xl:space-y-0 lg:space-y-0 text-xl font-bold lg:font-semibold leading-7 ml-60 drop-shadow-lg lg:drop-shadow-none pb-10 lg:pb-0 xl:pb-0 2xl:pb-0
+}
+
+.menu {
+   @apply hover:underline decoration-[#505050] 
+}
+
+.about-us {
+   @apply hover:underline decoration-[#505050]
+}
+
+.reviews {
+    @apply hover:underline decoration-[#505050]
+ }
+
+ .specials {
+    @apply hover:underline decoration-[#505050]
+ }
+
+ .location {
+    @apply hover:underline decoration-[#505050]
+ }
+
+ .icon {
+    @apply flex space-x-20 bg-white invisible sm:invisible md:invisible lg:visible lg:ml-28
+ }
+
+ .toggle {
+  @apply flex justify-end absolute right-10
+ }
+
+ .bar-icon {
+   @apply lg:invisible 2xl:invisible md:visible absolute right-10
+ }
+
+ .close-icon {
+  @apply lg:invisible 2xl:invisible hidden absolute right-10
+ }
+
+ .content-text {
+   @apply lg:flex lg:flex-nowrap md:flex-wrap flex-wrap justify-evenly flex place-content-center
+ }
+
+ .header-text {
+    @apply ml-12 lg:ml-0 md:ml-12 2xl:ml-0
+ }
+
+ .header-padding {
+    @apply p-40
+ }
+
+ .para1 {
+    @apply text-[#EA0025] font-medium text-lg tracking-wider mt-7 align-top p-5
+ }
+
+ .content-food {
+  @apply flex space-x-1 md:space-x-10 xl:space-x-10 2xl:space-x-10 
+ }
+
+ .header1 {
+   @apply text-[#EA0025] text-9xl mt-10 tracking-tighter font-serif font-extrabold align-top leading-10
+ }
+
+ .para2 {
+   @apply text-xl text-[#505050]  leading-8 -mt-20 align-middle ml-2 mb-20
+ }
+
+ .btn1 {
+   @apply bg-[#EA0025] text-[white] text-xl p-5 rounded-2xl hover:underline decoration-white mr-5 mt-7
+ }
+ .btn2 {
+   @apply bg-[#505050] text-[white] text-xl  p-5 rounded-2xl hover:underline decoration-white mt-7
+ }
+
+ .content-list {
+   @apply text-[#505050] font-bold text-2xl flex ml-48
+ }
+
+ .dinner {
+   @apply ml-28
+ }
+
+ .timing {
+   @apply text-[#505050] text-sm font-medium flex ml-48 opacity-50 mt-2
+ }
+
+ .timing-1{
+   @apply ml-24
+ }
+
+ .content-image {
+   @apply lg:mt-12 lg:ml-16
+ }
+
+ .img1 {
+   @apply  bg-white
+ }
+
+ .para3 {
+   @apply flex justify-center p-10 mt-20 font-semibold text-xl text-[#505050]
+ }
+
+ .header2 {
+   @apply text-[#EA0025] font-extrabold text-7xl flex justify-center tracking-tighter -mt-5
+ }
+
+ .img2 {
+   @apply flex justify-center
+ }
+
+ .food-collection {
+   @apply lg:grid-cols-4 md:grid-cols-2 grid grid-cols-1 mt-10 gap-20 place-items-center
+ }
+
+ .img3 {
+   @apply  w-96 h-96  grid place-items-center
+ }
+
+ .header3 {
+   @apply text-[#2A333E] font-bold text-3xl -mt-32
+ }
+
+ .btn3 {
+   @apply -mt-8 bg-[#EA0025] text-sm drop-shadow-xl text-white p-5 rounded-br-3xl hover:underline decoration-white
+ }
+
+ .img4{
+   @apply w-96 h-96  grid place-items-center
+ }
+
+ .para4 {
+   @apply font-medium text-sm text-[#505050] -mt-52
+ }
+
+ .header4 {
+   @apply text-[#2A333E] font-bold text-3xl -mt-32
+ }
+
+ .btn4 {
+   @apply -mt-8 bg-[#EA0025] text-sm text-white p-5 rounded-br-3xl hover:underline decoration-white
+ }
+
+ .text {
+ @apply  ml-3
+ }
+
+ .img5 {
+  @apply w-96 h-96 grid place-items-center
+ }
+
+.img6 {
+  @apply -mt-72
+}
+ .para5 {
+  @apply font-medium text-sm text-[#505050] -mt-52
+ }
+
+ .header5 {
+  @apply text-[#2A333E] font-bold text-3xl -mt-32
+ }
+
+ .btn-5 {
+  @apply -mt-8 bg-[#EA0025] text-sm text-white p-5 rounded-br-3xl hover:underline decoration-white
+ }
+
+ .text2 {
+  @apply ml-3
+ }
+
+ .img7 {
+  @apply  w-96 h-96 grid place-items-center
+ }
+
+ .img8 {
+  @apply -mt-72
+ }
+
+ .para6{
+  @apply font-medium text-sm text-[#505050] -mt-52
+ }
+
+ .header6 {
+  @apply text-[#2A333E] font-bold text-3xl -mt-32
+ }
+
+ .btn-6 {
+  @apply -mt-8 bg-[#EA0025] text-sm text-white p-5 rounded-br-3xl hover:underline decoration-white
+ }
+
+ .text3 {
+    @apply ml-3
+ }
+
+ .food-card {
+  @apply grid grid-cols-1 md:grid-cols-1 place-items-center mt-44 gap-16 lg:grid-cols-3
+ }
+
+ .food-card1 {
+  @apply flex place-items-center space-y-0 md:place-content-center lg:w-5/6 xl:w-5/6 2xl:w-5/6 lg:ml-44 sm:w-4/6
+ }
+
+ .food-list {
+  @apply grid place-items-center w-72 tracking-tighter
+ }
+
+ .food1 {
+  @apply mt-0
+ }
+
+ .food2 {
+  @apply -mt-72 
+ }
+
+ .food3 {
+  @apply -mt-20 
+ }
+
+ .food4 {
+  @apply mt-5 
+ }
+
+ .food5 {
+  @apply mt-10 
+ }
+
+ .food-names {
+  @apply text-[#2A333E] font-semibold text-base leading-9 tracking-wide space-y-20
+ }
+
+ .coffee{
+  @apply hover:bg-[#EA0025] hover:text-white px-3 hover:rounded-2xl
+ }
+
+ .fastfood{
+  @apply hover:bg-[#EA0025] hover:text-white px-3 hover:rounded-2xl
+ }
+
+ .pizza{
+  @apply hover:bg-[#EA0025] hover:text-white px-3 hover:rounded-2xl
+ }
+
+ .desi-menu{
+  @apply hover:bg-[#EA0025] hover:text-white px-3 hover:rounded-2xl
+ }
+
+ .desserts{
+  @apply hover:bg-[#EA0025] hover:text-white px-3 hover:rounded-2xl
+ }
+
+ .line {
+  @apply lg:w-10 lg:h-1/3 -mt-72 w-0 h-0 lg:mr-56 invisible lg:visible
+ }
+
+ .container {
+  @apply rounded-3xl sm:w-10/12 md:w-6/12 md:h-4/6 lg:h-4/6 lg:w-11/12 lg:mr-72 lg:ml-0 md:ml-32 sm:ml-20 h-4/6 md:-mt-0 lg:-mt-0 bg-[#fcd9d9]
+ }
+
+ .img9 {
+  @apply -mt-14 ml-72
+ }
+
+ .image1 {
+  @apply ml-5
+ }
+
+ .btn7 {
+  @apply p-5 z-10 leading-5 font-bold tracking-wider text-lg text-[#2A333E] bg-[#f5c5c5] rounded-full pr-14 mt-16 ml-10
+ }
+
+ .image2 {
+  @apply w-16 -mt-12 ml-80 pl-7 z-10
+ }
+
+ .header7 {
+    @apply text-[#EA0000] font-bold text-6xl ml-10 mt-5 tracking-tighter font-serif 
+ }
+
+ .cube {
+  @apply w-56
+ }
+
+ .image3 {
+  @apply-mt-20 -ml-20
+ }
+
+ .para7 {
+  @apply -mt-24 text-[#2A333E] text-sm font-medium leading-8 tracking-normal ml-12
+ }
+
+ .btn8 {
+  @apply p-5 rounded-tr-3xl bg-[#2A333E] text-white ml-12 mt-5 hover:underline decoration-white
+ }
+
+ .image4 {
+  @apply lg:w-72 xl:w-72 2xl:w-72 w-96 ml-80 lg:ml-96 xl:ml-96 2xl:ml-96
+ }
+
+ .form {
+  @apply relative
+ }
+
+ .form1 {
+  @apply flex justify-center mt-64
+ }
+
+ .para8 {
+  @apply text-[#2A333E] font-bold text-2xl leading-5 bg-white rounded-3xl lg:w-3/6 w-full h-96 border-2 border-red-500 flex justify-center
+ }
+
+ .text-1 {
+  @apply mt-8
+ }
+
+ .shape {
+  @apply flex place-content-center -mt-80 
+ }
+
+ .para9 {
+  @apply flex justify-center mt-20 font-semibold text-lg leading-5
+ }
+
+ .text-2 {
+  @apply flex justify-center
+ }
+
+ .form2 {
+  @apply flex justify-center mt-10 bg-white z-10
+ }
+
+ .form3 {
+  @apply border border-red-600 rounded-full w-2/6 p-2 px-80 py-7 md:px-80 md:py-7 lg:px-32 lg:py-7 xl:py-7 2xl:py-7
+ }
+
+ .btn9 {
+  @apply absolute bg-[#EA0000] text-white rounded-full px-20 py-6 lg:px-20 lg:py-6 text-base leading-5 ml-96 mt-2
+ }
+
+ .footer {
+  @apply w-full bg-[#2A333E] h-full text-white gap-10 grid-cols-2
+ }
+
+ .footer-1 {
+  @apply grid lg:grid-cols-4 grid-cols-2 md:grid-cols-2 place-items-center
+ }
+
+ .footer-2 {
+  @apply w-64 h-56 mt-44 p-10
+ }
+
+ .image-3 {
+  @apply mt-24
+ }
+
+ .footer-3 {
+  @apply w-80 h-56 mt-36
+ }
+
+ .para-3 {
+  @apply font-bold text-white text-4xl leading-8 mb-12
+ }
+
+ .footer-4 {
+  @apply font-medium text-base leading-6 flex gap-3
+ }
+
+ .footer-5 {
+  @apply font-medium text-base leading-6 flex gap-3 mb-10 ml-5
+ }
+
+ .footer-6 {
+  @apply flex gap-3 mb-10
+ }
+
+ .footer-7 {
+  @apply flex gap-3 mb-7
+ }
+
+ .footer-8 {
+  @apply w-60 h-56 mt-36 pl-7
+ }
+
+ .support {
+  @apply font-bold text-white text-4xl leading-8 mb-12
+ }
+
+ .faq {
+  @apply font-medium text-base leading-6 mb-7
+  
+  }
+
+.shipping {
+ @apply font-medium text-base leading-6 mb-7
+  
+}
+
+.contact {
+  @apply font-medium text-base leading-6 mb-7
+}
+
+.partner {
+  @apply font-medium text-base leading-6 mb-7
+  
+}
+
+ .footer-9 {
+  @apply w-36 h-56 mt-36
+ }
+
+ .info {
+  @apply font-bold text-4xl leading-8 mb-12
+ }
+
+ .date {
+  @apply font-medium text-base leading-7 mb-7
+ }
+
+ .party {
+  @apply font-medium text-base leading-7 mb-7
+ }
+
+ .birth {
+  @apply font-medium text-base leading-7 mb-7
+ }
+
+ .menu1 {
+  @apply font-bold text-base leading-8 mb-7
+ }
+
+ .footer-10 {
+  @apply mt-24 font-medium text-base flex place-content-center
+ }
