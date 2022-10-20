@@ -26,7 +26,7 @@ html {
   @apply  -mt-2 w-44 inline-block absolute left-28 lg:left-20 xl:left-20 2xl:left-20 z-10
 }
 .menu-list {
-   @apply flex-col place-content-center md:ml-44 mt-20 lg:mt-0 hidden lg:block 
+   @apply flex-col place-content-center ml-2 sm:ml-0 2xl:ml-28 xl:ml-28 lg:ml-28 md:ml-56 mt-20 lg:mt-0 hidden lg:block 
 }
 
 .menu-drop {
@@ -34,23 +34,23 @@ html {
 }
 
 .menu {
-   @apply hover:underline decoration-[#505050] 
+   @apply hover:text-[#EA0025] 
 }
 
 .about-us {
-   @apply hover:underline decoration-[#505050]
+   @apply hover:text-[#EA0025]
 }
 
 .reviews {
-    @apply hover:underline decoration-[#505050]
+    @apply hover:text-[#EA0025]
  }
 
  .specials {
-    @apply hover:underline decoration-[#505050]
+    @apply hover:text-[#EA0025]
  }
 
  .location {
-    @apply hover:underline decoration-[#505050]
+    @apply hover:text-[#EA0025]
  }
 
  .icon {
@@ -86,7 +86,11 @@ html {
  }
 
  .content-food {
-  @apply flex space-x-1 md:space-x-10 xl:space-x-10 2xl:space-x-10 
+  @apply flex space-x-10 md:space-x-10 xl:space-x-10 2xl:space-x-10 
+ }
+
+ .dolls {
+  @apply w-12 md:w-20 lg:w-20 xl:w-20 2xl:w-20
  }
 
  .header1 {
@@ -94,7 +98,7 @@ html {
  }
 
  .para2 {
-   @apply text-xl text-[#505050]  leading-8 -mt-20 align-middle ml-2 mb-20
+   @apply text-xl text-[#505050] leading-8 md:-mt-20 lg:-mt-20 align-middle ml-2 mb-20
  }
 
  .btn1 {
@@ -141,7 +145,7 @@ html {
  }
 
  .food-collection {
-   @apply lg:grid-cols-4 md:grid-cols-2 grid grid-cols-1 mt-10 gap-20 place-items-center
+   @apply lg:grid-cols-4 md:grid-cols-2 grid grid-cols-1 mt-10 gap-40 place-items-center
  }
 
  .img3 {
@@ -336,7 +340,7 @@ html {
  }
 
  .para8 {
-  @apply text-[#2A333E] font-bold text-2xl leading-5 bg-white rounded-3xl lg:w-3/6 w-full h-96 border-2 border-red-500 flex justify-center
+  @apply text-[#2A333E] font-bold text-2xl leading-5 bg-white rounded-3xl 2xl:w-3/6 xl:w-3/6 lg:w-3/6 md:w-3/6 w-4/5  h-96 border-2 border-red-500 flex justify-center
  }
 
  .text-1 {
@@ -348,7 +352,7 @@ html {
  }
 
  .para9 {
-  @apply flex justify-center mt-20 font-semibold text-lg leading-5
+  @apply flex justify-center mt-20 font-semibold text-lg leading-5 tracking-tight md:tracking-normal lg:tracking-normal xl:tracking-normal 2xl:tracking-normal
  }
 
  .text-2 {
@@ -360,11 +364,11 @@ html {
  }
 
  .form3 {
-  @apply border border-red-600 rounded-full w-2/6 p-2 px-80 py-7 md:px-80 md:py-7 lg:px-32 lg:py-7 xl:py-7 2xl:py-7
+  @apply border border-red-600 rounded-full lg:w-3/6 2xl:w-2/6 xl:w-2/6 w-3/6 md:w-2/4 p-2 px-56 py-7 md:px-56 md:py-8 lg:px-32 lg:py-7 xl:py-7 2xl:py-7
  }
 
  .btn9 {
-  @apply absolute bg-[#EA0000] text-white rounded-full px-20 py-6 lg:px-20 lg:py-6 text-base leading-5 ml-96 mt-2
+  @apply absolute bg-[#EA0000] text-white rounded-full px-10 md:px-16 py-6 md:py-6 lg:px-20 lg:py-6 xl:py-6 2xl:py-6 text-base leading-5 ml-96 mr-32 lg:mr-0 md:mr-0  mt-2 md:mt-3 lg:mt-2 xl:mt-2 2xl:mt-2 hover:underline decoration-white
  }
 
  .footer {
